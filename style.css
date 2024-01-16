@@ -27,3 +27,24 @@ p {
   line-height: 2;
   padding: 5%;
 }
+.install {
+  cursor: pointer;
+  background-color: rgb(27, 207, 105);
+  color: #fff;
+  padding: 10px;
+  border-radius: 32px;
+  font-weight: 600;
+  padding-right: 39px;
+  padding-left: 34px;
+  border: none;
+  margin-top: 17px;
+}
+.magic-hero {
+  text-align: center;
+  border-radius: 40px;
+}
+.buttons {
+  text-align: center;
+
+  padding: 6px;
+}
