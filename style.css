@@ -18,8 +18,13 @@ p {
   background: linear-gradient(180deg, #9747ff 0%, #684dff 100%);
   color: #fff;
 }
+.nav {
+  justify-content: space-evenly;
+}
 .main-heading {
   padding: 5px;
+  margin-left: 63px;
+  padding-top: 21px;
 }
 .one span {
   opacity: 0.64;
@@ -332,7 +337,7 @@ p {
 .company {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 16%;
+  margin-top: 13%;
 }
 .company h1 {
   font-size: 109%;
@@ -341,3 +346,4 @@ p {
   display: flex;
   gap: 3rem;
 }
+/* last-sec-end */
