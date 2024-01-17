@@ -18,7 +18,7 @@ p {
   background: linear-gradient(180deg, #9747ff 0%, #684dff 100%);
   color: #fff;
 }
-.one h2 {
+.main-heading {
   padding: 5px;
 }
 .one span {
@@ -155,8 +155,6 @@ p {
 }
 .figma {
   text-align: center;
-  border-radius: 40px;
-  padding: 9px;
 }
 .figma-two {
   position: absolute;
