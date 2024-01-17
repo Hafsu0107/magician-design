@@ -54,6 +54,10 @@ p {
   text-align: center;
   padding: 21px;
 }
+.figma-one {
+  display: inline-block;
+  margin-right: 10px;
+}
 .like {
   padding: 7px;
   background-color: transparent;
@@ -176,15 +180,14 @@ p {
 }
 .figma {
   text-align: center;
-  padding: 15px;
+  padding: 20px;
   margin-right: 17px;
   border-radius: 43px;
-  display: inline-block;
 }
 
 .figma-two {
   position: absolute;
-  top: 410%;
+  top: 385%;
   left: 42%;
 }
 /* sec-three-end */
@@ -225,3 +228,116 @@ p {
   padding: 7px;
 }
 /* sec-four-end */
+
+/* sec-five-start */
+.pricing {
+  text-align: center;
+  background-color: #7b61ff;
+  color: #fff;
+}
+.pricing h1 {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 156px;
+}
+.public-beta {
+  background-color: #fff;
+  color: black;
+  width: 32%;
+  border-radius: 26px;
+  height: 425px;
+  margin-left: 35%;
+  line-height: 2rem;
+}
+.pricing h2 {
+  color: #7b61ff;
+  font-size: 19px;
+  margin-right: 50%;
+  padding-top: 23px;
+}
+.free h1 {
+  margin-right: 63%;
+}
+.free p {
+  opacity: 0.34;
+  margin-right: 116px;
+  margin-top: -52px;
+}
+.free ul {
+  padding: 12px;
+  margin-right: 50%;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 3rem;
+  color: black;
+  margin-bottom: 24px;
+}
+.try {
+  cursor: pointer;
+  background-color: #7b61ff;
+  color: #fff;
+  padding: 9px;
+  border-radius: 32px;
+  font-weight: 600;
+  padding-right: 39px;
+  padding-left: 34px;
+  border: none;
+  margin-left: 45px;
+  margin-right: 41px;
+  margin-top: -8%;
+}
+/* sec-five-end */
+
+/* sec-six-start */
+.magician {
+  background-color: #291a3f;
+  color: #fff;
+  height: 699px;
+}
+.get h1 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 268%;
+  padding-top: 98px;
+}
+.get p {
+  text-align: center;
+}
+.icon {
+  text-align: center;
+  padding: 50px;
+}
+.figma-three {
+  cursor: pointer;
+  background-color: #7b61ff;
+  color: #fff;
+  padding: 13px;
+  border-radius: 32px;
+  font-weight: 600;
+  padding-right: 39px;
+  padding-left: 34px;
+  border: none;
+  margin-top: 17px;
+  text-align: center;
+}
+.discard {
+  opacity: 0.64;
+}
+.join {
+  display: inline-block;
+  margin-right: 10px;
+  opacity: 0.64;
+  margin-top: 13px;
+}
+.company {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 16%;
+}
+.company h1 {
+  font-size: 109%;
+}
+.footer ul {
+  display: flex;
+  gap: 3rem;
+}
