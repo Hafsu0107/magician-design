@@ -10,6 +10,7 @@ body {
 p {
   font-weight: 600;
   font-size: 20px;
+  margin-top: 17px;
   opacity: 0.64;
 }
 /* first-sec-start */
@@ -75,6 +76,7 @@ p {
   color: #fff;
 }
 /* first-sec-end */
+
 /* sec-tw-start */
 .magic-wand {
   background-color: rgb(73, 63, 63);
@@ -89,7 +91,78 @@ p {
 .text h1 {
   padding: 5px;
 }
+
 .more {
   text-align: center;
   padding: 66px;
+  display: flex;
+  gap: 4rem;
+  margin-left: 157px;
+}
+.text-icon {
+  padding: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: #fff;
+  font-weight: 500;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.magic-img {
+  text-align: center;
+  border-radius: 40px;
+  padding: 23px;
+}
+/* sec-two-end */
+
+/* sec-three-start */
+.spells {
+  background-color: rgb(247, 240, 240);
+}
+.text {
+  text-align: center;
+  max-width: 500px;
+  margin-left: 28%;
+  padding-top: 92px;
+}
+.text h1 {
+  padding: 5px;
+}
+
+.more {
+  text-align: center;
+  padding: 66px;
+  display: flex;
+  gap: 4rem;
+  margin-left: 157px;
+}
+.magic-icon {
+  padding: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  background-color: rgb(8, 6, 6);
+  color: #fff;
+
+  font-weight: 500;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.figma {
+  text-align: center;
+  border-radius: 40px;
+  padding: 23px;
+}
+.figma-two {
+  position: absolute;
+  top: 354%;
+  left: 42%;
+}
+/* sec-three-end */
+
+/* sec-four-start */
+
+.diagram {
+  background-color: rgb(48, 47, 47);
+  color: #fff;
+  text-align: center;
 }
