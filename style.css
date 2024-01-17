@@ -65,6 +65,14 @@ p {
   cursor: pointer;
   font-weight: 600;
 }
+.heart {
+  display: inline-block;
+  margin-right: 7px;
+}
+.arrow {
+  display: inline-block;
+  margin-right: 7px;
+}
 
 .download {
   padding: 7px;
@@ -83,7 +91,7 @@ p {
 }
 /* first-sec-end */
 
-/* sec-tw-start */
+/* sec-two-start */
 .magic-wand {
   background-color: rgb(73, 63, 63);
   color: #fff;
@@ -119,6 +127,11 @@ p {
   border-radius: 40px;
   padding: 23px;
 }
+.magic-image {
+  display: inline-block;
+  margin-right: 11px;
+}
+
 /* sec-two-end */
 
 /* sec-three-start */
@@ -134,13 +147,22 @@ p {
 .text h1 {
   padding: 5px;
 }
-
+.each {
+  font-size: 20px;
+  margin-top: 17px;
+  width: 483px;
+}
 .more {
   text-align: center;
-  padding: 66px;
+  padding: 29px;
   display: flex;
   gap: 4rem;
-  margin-left: 157px;
+  margin-left: 238px;
+}
+.design {
+  margin-top: 17px;
+  opacity: 0.46;
+  width: 483px;
 }
 .magic-icon {
   padding: 5px;
@@ -148,14 +170,18 @@ p {
   padding-right: 25px;
   background-color: rgb(8, 6, 6);
   color: #fff;
-
   font-weight: 500;
   border-radius: 20px;
   cursor: pointer;
 }
 .figma {
   text-align: center;
+  padding: 15px;
+  margin-right: 17px;
+  border-radius: 43px;
+  display: inline-block;
 }
+
 .figma-two {
   position: absolute;
   top: 410%;
