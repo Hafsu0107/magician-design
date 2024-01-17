@@ -166,3 +166,12 @@ p {
   color: #fff;
   text-align: center;
 }
+.text {
+  padding: 32px;
+  text-align: center;
+  max-width: 500px;
+  margin-left: 28%;
+}
+.pics {
+  padding-inline-start: 3px;
+}
