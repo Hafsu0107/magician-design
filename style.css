@@ -481,6 +481,8 @@ a {
 }
 .free {
   display: block;
+  margin-right: 66%;
+  margin-top: 34px;
 }
 .plans h3 strong {
   font-weight: 900;
@@ -498,8 +500,10 @@ a {
   margin-bottom: 40px;
   font-weight: 600;
   margin-top: 8px;
+  margin-right: 35%;
 }
 .plans ul li {
+  margin-right: 54%;
   display: block;
   font-weight: 700;
   font-size: 18px;
@@ -535,16 +539,19 @@ a {
 /* sec-five-end */
 
 /* sec-six-start */
-.magician {
-  background-color: #291a3f;
+.tweets {
+  background-color: #190b2e;
   color: #fff;
-  height: 699px;
+  height: 960px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .get h1 {
   text-align: center;
-  font-weight: 700;
-  font-size: 268%;
-  padding-top: 98px;
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 44px;
 }
 .get p {
   text-align: center;
