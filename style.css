@@ -542,33 +542,26 @@ a {
 .tweets {
   background-color: #190b2e;
   color: #fff;
-  height: 960px;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  text-align: center;
+  padding-top: 5px;
 }
 .get h1 {
-  text-align: center;
   font-weight: 900;
   font-size: 36px;
-  line-height: 44px;
-}
-.get p {
-  text-align: center;
+  margin-top: 13%;
 }
 
 .figma-three {
   cursor: pointer;
   background-color: #7b61ff;
   color: #fff;
-  padding: 13px;
+  padding: 12px 24px;
   border-radius: 32px;
-  font-weight: 600;
-  padding-right: 39px;
-  padding-left: 34px;
+  line-height: 24px;
+  font-weight: 700;
+  font-size: 18px;
   border: none;
   margin-top: 17px;
-  text-align: center;
 }
 .discard {
   opacity: 0.64;
