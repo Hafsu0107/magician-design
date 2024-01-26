@@ -344,7 +344,6 @@ p {
   background-color: #333333;
   color: #fff;
   text-align: center;
-  width: 1275px;
 }
 a {
   color: inherit;
@@ -445,7 +444,6 @@ a {
   text-align: center;
   background-color: #7b61ff;
   color: #fff;
-  width: 1275px;
 }
 .pricing h2 {
   font-weight: 900;
@@ -585,3 +583,39 @@ a {
   gap: 3rem;
 }
 /* last-sec-end */
+
+/* resposive */
+@media screen and (max-width: 767px) {
+  .one {
+    text-align: center;
+    padding: 5px;
+  }
+  .logo {
+    padding-left: 120px;
+    display: flex;
+    flex-direction: column;
+  }
+  .nav {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .magic-hero {
+    width: 100%;
+  }
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+  }
+
+  .magic-wand {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+  .desc {
+    text-align: center;
+  }
+}
